@@ -51,7 +51,7 @@ This project was developed as part of an assignment.
 ```
 Task-API/
 ├─ assets/
-│  └─ sample.json
+│  └─ Task_API_postman_collection.json
 ├─ src/
 │  ├─ config/db.js
 │  ├─ controllers/taskController.js
@@ -61,6 +61,7 @@ Task-API/
 │  ├─ app.js
 │  └─ server.js
 ├─ .env
+├─ package.json
 ├─ README.md
 ```
 
