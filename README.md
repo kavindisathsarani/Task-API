@@ -107,5 +107,27 @@ You can test the API using **Postman**:
 - Method: **DELETE**  
 - URL: `http://localhost:5000/tasks/<TASK_ID>`
 
+## 📄 Example JSON File
+
+For testing, see the sample payload:  
+👉 [assets/sample.json](assests\Task_API_postman_collection.json)
+
+---
+
+## ✅ Validation & Error Handling
+
+* Title must not be empty → returns `400 Bad Request`.
+* Invalid MongoDB IDs → returns `400 Bad Request`.
+* Non-existing tasks → returns `404 Not Found`.
+* All errors return consistent JSON responses.
+
+---
+
+## 🔀 Git Workflow
+
+* Development is done in **`feature/task-api`** branch.
+* Create Pull Requests into **`main`**.
+
+---
 
    
