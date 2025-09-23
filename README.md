@@ -107,10 +107,9 @@ You can test the API using **Postman**:
 - Method: **DELETE**  
 - URL: `http://localhost:5000/tasks/<TASK_ID>`
 
-## 📄 Example JSON File
-
-For testing, see the sample payload:  
-👉 [assets/sample.json](assests\Task_API_postman_collection.json)
+## 📄 Postman Collection
+ 
+- 📦 [Postman Collection](./assets/Task_API_postman_collection.json)
 
 ---
 
